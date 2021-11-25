@@ -1,12 +1,12 @@
 #include <iostream>
 
-#define MONDAY 1
-#define TUESDAY 2
-#define WEDNESDAY 3
-#define THURSDAY 4
-#define FRIDAY 5
-#define SATURDAY 6
-#define SUNDAY 7
+#define MONDAY "monday"
+#define TUESDAY "tuesday"
+#define WEDNESDAY "wednesday"
+#define THURSDAY "thursday"
+#define FRIDAY "friday"
+#define SATURDAY "saturday"
+#define SUNDAY "sunday"
 
 
 int main() {
@@ -14,20 +14,20 @@ int main() {
     int num;
     std::cin >> num;
 
-    if(num == MONDAY)
-        std::cout << "monday";
-    else if(num == TUESDAY)
-        std::cout << "tuesday";
-    else if(num == WEDNESDAY)
-        std::cout << "wednesday";
-    else if(num == THURSDAY)
-        std::cout << "thursday";
-    else if(num == FRIDAY)
-        std::cout << "friday";
-    else if(num == SATURDAY)
-        std::cout << "saturday";
-    else if(num == SUNDAY)
-        std::cout << "sunday";
+    if(num == 1)
+        std::cout << MONDAY;
+    else if(num == 2)
+        std::cout << TUESDAY;
+    else if(num == 3)
+        std::cout << WEDNESDAY;
+    else if(num == 4)
+        std::cout << THURSDAY;
+    else if(num == 5)
+        std::cout << FRIDAY;
+    else if(num == 6)
+        std::cout << SATURDAY;
+    else if(num == 7)
+        std::cout << SUNDAY;
 
     return 0;
 }
